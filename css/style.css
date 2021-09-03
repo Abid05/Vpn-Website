@@ -1,0 +1,487 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6{
+     font-family: 'Rubik', sans-serif;
+}
+body{
+     font-family: 'Rubik', sans-serif;
+}
+html{
+     scroll-behavior: smooth;
+}
+/* ------------------------------- global-css start here ------------------------------- */
+.title-part h1{
+     font-weight: 500;
+     font-size: 38px;
+     line-height: 50px;
+     text-align: center;
+     color: #0B132A;
+}
+.title-part p{
+     font-weight: normal;
+     font-size: 16px;
+     line-height: 30px;
+     text-align: center;
+     color: #929292;
+}
+.title-part a{
+     color:#666769;
+     text-decoration: none;
+}
+/* ------------------------------- global-css start here ------------------------------- */
+/* ------------------------ header section start here ----------------------- */
+
+.isStuck{
+     left:0px;
+     width:100%;
+     background: rgb(245, 245, 245);
+     padding: 0;
+ }
+.navbar-wrapper {
+     margin-top:0;
+     position: relative;
+     z-index: 15;  
+}
+.header{
+     width: 100%;
+}
+.header .bg-light {
+     background-color: transparent !important;
+     padding: 20px 0;
+ }
+.header .top-header{
+     padding: 15px 0;
+     background: #F53838;
+}
+.header .top-header .top-contact ul{
+     list-style: none;
+     display: flex;
+     padding-left: 0;
+     margin-bottom: 0;
+}
+.header .top-header .top-contact ul li{
+     margin-right: 15px;
+}
+.header .top-header .top-contact ul li a{
+     text-decoration: none;
+     color: #ffff;
+}
+.header .top-header .top-contact ul li a:hover{
+     color: rgb(240, 227, 227);
+     transition: all .2s ease-in;
+}
+.header .top-header .top-icon{
+     display: flex;
+     justify-content: flex-end;
+}
+.header .top-header .top-icon ul{
+     list-style: none;
+     display: flex;
+     padding-left: 0;
+     margin-bottom: 0;
+}
+.header .top-header .top-icon i{
+     font-size: 20px;
+     margin-left: 15px;
+     color:#fff;
+}
+.header .top-header .top-icon i:hover{
+     color: rgb(240, 227, 227);
+     transform:  scale(1.2);
+     transition: .2s ease-in;
+}
+/* menu-part */
+.header .menu .nav-link{
+     font-size: 18px;
+}
+.header .menu .inner-button .btn{
+     font-size: 18px;
+}
+ .header .menu .inner-button .btn-primary{
+     background: none;
+     border: none;
+     color:#0B132A;
+     font-weight: 500;
+}
+.header .menu .inner-button .btn-success{
+     background: none;
+     border: 1px solid #F53838;
+     color: #F53838;
+     font-weight: 500;
+     border-radius: 50px;
+     padding: 8px 35px;
+}
+.header .menu .inner-button .btn-success:hover{
+     background:#F53838  !important;
+     transition: all .3s ease-in;
+     color: #fff;
+}
+.header .menu .nav-item{
+     margin-right: 25px;
+}
+/* banner-part */
+.header .banner-part{
+     width: 100%;
+     padding: 90px 0 110px 0;
+}
+.header .banner-part .left-site{
+     margin-top: 20px;
+}
+.header .banner-part .left-site h1{
+     font-size: 50px;
+     font-weight: 500;
+     line-height: 65px;
+     color: #0B132A;
+}
+.header .banner-part .left-site h1 span{
+     font-size: 50px;
+     font-weight: 700;
+}
+.header .banner-part .left-site p{
+     font-size: 16px;
+     color: rgb(133, 132, 132);
+     margin: 25px 0 40px 0;
+}
+.header .banner-part .left-site p a{
+     color:#666769;
+     text-decoration: none;
+     font-weight: 500;
+}
+.header .banner-part .left-site .left-btn{
+
+}
+.header .banner-part .left-site .left-btn .btn-primary{
+     color: #fff;
+     border: 1px solid #F53838;
+     background: #F53838 !important;
+     border-radius: 10px;
+     padding: 14px 70px;
+     font-weight: 500;
+     transition: all .3s ease-in;
+}
+.header .banner-part .left-site .left-btn .btn-primary:hover{
+     background: rgba(245, 56, 56, 0.35);
+     box-shadow: 0px 15px 20px rgba(245, 56, 56, 0.35);
+     color: #fff;
+     transform: translateY(-7px); 
+}
+/* ------------------------ header section end here ----------------------- */
+/* ----------------------------- inform-section start here ----------------------------- */
+.inform-section{
+     width: 100%;
+}
+.inform-section .main-section {
+     padding: 55px;
+     background: #FFFFFF;
+     box-shadow: 0 77px 45px -8px rgba(0, 0, 0, 5%);
+     /* opacity: 0.8; */
+     border-radius: 10px;
+}
+.inform-section .main-section .inner-section{
+     justify-content: center;
+     border-right: 2px solid #bebebe;
+}
+.inform-section .main-section .col-md-4:last-child .inner-section{
+    border-right: none;
+}
+.inform-section .main-section .inner-icon{
+     background: #FFECEC;
+     border-radius: 50px;
+     width: 55px;
+     height: 55px;
+     text-align: center;
+     line-height: 55px;
+     color: #F53838;
+     font-size: 22px;
+     margin-right: 20px;
+}
+.inform-section .main-section .inner-text h5{
+     margin: 0;
+     color: #0B132A;
+     font-size: 25px;
+}
+.inform-section .main-section .inner-text p{
+     margin: 0;
+     color: #4F5665;
+}
+.features{
+     width: 100%;
+     padding: 10% 0;
+}
+.features .right-site{
+     margin-top: 10%;
+}
+.features .right-site .inner-text h1{
+     font-style: normal;
+     font-weight: 600;
+     font-size: 35px;
+     line-height: 50px;
+     color: #0B132A;
+     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.features .right-site .inner-text p{
+     color: #4F5665;
+     list-style: none;
+     padding: 12px 0;
+     font-size: 16px;
+}
+.features .right-site .inner-list ul{
+     list-style: none;
+     padding: 0; 
+}
+.features .right-site .inner-list ul li{
+     margin-bottom: 22px;
+}
+.features .right-site .inner-list ul li img{
+     margin-right: 10px;
+}
+.features .right-site .inner-list ul li span{
+     color: #4F5665;
+     font-size: 14px;
+}
+/* ----------------------------- inform-section end here ----------------------------- */
+/* ------------------------ price-section start here ------------------------ */
+.price{
+     width: 100%;
+}
+.price .inner-price{
+     display: flex;
+     justify-content: center;
+}
+.price .inner-price .card{
+     padding: 80px 45px 30px 45px;
+     border: 2px solid #dddd;
+     border-radius: 10px;
+     margin: 0 12px;
+}
+.price .inner-price .card .card-img{
+     text-align: center !important;
+}
+.price .inner-price .card .card-img img{
+     width: 145px;
+}
+.price .inner-price .card .card-body .card-title{
+     text-align: center;
+     margin: 20px 0 40px 0;
+}
+.price .inner-price .card .card-body .card-inner-list ul{
+     list-style: none;
+     padding: 0;
+     height: 42vh;
+}
+.price .inner-price .card .card-body .card-inner-list ul li{
+     margin: 20px 0;
+}
+.price .inner-price .card .card-body .card-inner-list ul li span{
+     color: #4F5665;
+     font-size: 15px;
+     margin-left: 20px;
+}
+.price .inner-price .card .card-body .price-footer{
+     text-align: center;
+}
+.price .inner-price .card .card-body .price-footer h4{
+     margin-bottom: 20px;
+}
+.price .inner-price .card .card-body .price-footer span{
+     color: #929292;
+}
+.price .inner-price .card .card-body .price-footer .inner-btn .btn{
+     color: #F53838;
+     border: 1px solid #F53838;
+     background: transparent !important;
+     border-radius: 50px;
+     padding: 9px 65px;
+     font-weight: 500;
+     transition: all .3s ease-in;
+     font-size: 18px;
+}
+.price .inner-price .card .card-body .price-footer .inner-btn .btn:hover{
+     background:#F53838  !important;
+     /* background: rgba(245, 56, 56, 0.35); */
+     box-shadow: 0px 15px 20px rgba(245, 56, 56, 0.35);
+     transition: all .3s ease-in;
+     color: #fff;
+     transform: translateY(-5px); 
+}
+/* ------------------------ price-section end here ------------------------ */
+
+/* -------------------- global-network section start here ------------------- */
+.global-network{
+     width: 100%;
+     padding: 14% 0 5% 0;
+}
+.global-network .title-part{
+     margin-bottom: 12%;
+}
+/* -------------------- global-network section end here ------------------- */
+
+/* --------------------- testimonial section start here --------------------- */
+.testimonial{
+     width: 100%;
+     padding: 70px 0 40px 0;
+}
+.testimonial .testimonial-active {
+     margin: 50px 0;
+}
+.testimonial .testimonial-active .test-item{
+     border: 2px solid #F53838;
+     border-radius: 10px;
+     padding: 30px 30px 25px 30px;
+     margin: 0 20px;
+}
+.testimonial .testimonial-active  .t-2{
+     padding-bottom: 73px;
+}
+.testimonial .testimonial-active  .t-3{
+     padding-bottom: 49px;
+}
+.testimonial .testimonial-active  .t-4{
+     padding-bottom: 76px;
+}
+.testimonial .testimonial-active .t-5{
+     padding-bottom:52px ;
+}
+.testimonial .testimonial-active  .t-6{
+     padding-bottom:76px ;
+}
+.testimonial .testimonial-active .test-item h4{
+     margin: 0;
+     font-size: 18px;
+     color:  #0B132A;
+}
+.testimonial .testimonial-active .test-item .address p{
+     margin: 0;
+     font-size: 14px;
+     color: #4F5665;
+}
+.testimonial .testimonial-active .test-item p{
+     margin: 0;
+     font-size: 14px;
+     color:  #0B132A;
+}
+.testimonial .testimonial-active .test-item span i{
+     color:  #f8a60e;
+}
+.testimonial .testimonial-active .test-item .inner-text p{
+     font-size: 16px;
+     color: #0B132A;
+     margin-top: 12px;
+}
+.testimonial .testimonial-active .test-item .t-pic{
+     border-radius: 50%;
+}
+.testimonial .slick-dots{
+     margin-top: 60px;
+     padding-left: 20px;
+}
+.testimonial .slick-dots li{
+     display: inline-block;
+     margin: 0;
+     list-style: none;
+}
+.testimonial .slick-dots button{
+     font-size: 0;
+     height: 14px;
+     width: 14px;
+     border: none;
+     margin-right: 10px;
+     border-radius: 50%;
+     background: #DDE0E4 !important;
+     transition: all 0.4s ease-in;
+}
+.testimonial .slick-dots .slick-active button{
+     height: 14px;
+     width: 40px;
+     display: block;
+     border-radius: 15px;
+     transition: all 0.4s ease-in;
+     background-color: #F53838 !important;
+     border: none;
+}
+/* --------------------- testimonial section start here --------------------- */
+/* ------------------------ footer-section start here ----------------------- */
+.footer{
+     width: 100%;
+     background: linear-gradient( #ffff 20%, #F8F8F8 0%);
+}
+.footer .inner-subscribe{
+     padding: 30px;
+     background: #fff;
+}
+.footer .inner-subscribe {
+     padding: 45px 72px 27px 70px;
+     background: #FFFFFF;
+     box-shadow: 0px 15px 90px -14px rgba(0, 0, 0, 8%);
+     /* opacity: 0.8; */
+     border-radius: 10px;
+}
+.footer .inner-subscribe .title-part h1{
+     text-align: left;
+}
+.footer .inner-subscribe .title-part p{
+     text-align: left;
+     color:#4F5665 ;
+}
+.footer .inner-subscribe .btn-primary{
+     color: #fff;
+     border: 1px solid #F53838;
+     background: #F53838 !important;
+     border-radius: 10px;
+     padding: 14px 60px;
+     font-weight: 500;
+     transition: all .3s ease-in;
+     margin-top: 40px;
+}
+.footer .inner-subscribe .btn-primary:hover{
+     background: rgba(245, 56, 56, 0.35);
+     box-shadow: 0px 15px 20px rgba(245, 56, 56, 0.35);
+     color: #fff;
+     transform: translateY(-7px); 
+}
+.footer .inner-footer{
+     padding: 70px 0 40px 0px;
+}
+.footer .inner-footer .left-site p{
+     color:#4F5665;
+     margin: 28px 0 30px 0;
+     font-size: 16px;
+}
+.footer .inner-footer .left-site a{
+     color:#515253;
+     text-decoration: none;
+     font-weight: 500;
+}
+.footer .inner-footer .left-site .inner-icon i{
+     background: #fff;
+     height: 40px;
+     width: 40px;
+     border-radius: 50px;
+     text-align: center;
+     line-height: 40px;
+     font-size: 20px;
+     margin-right: 15px;
+     color: #F53838;
+}
+.footer .inner-footer .left-site .inner-text{
+     color: #AFB5C0;
+}
+.footer .inner-footer .right-part{
+     margin-left: 70px;
+}
+.footer .inner-footer .right-part ul{
+     padding: 0;
+     margin-top: 25px;
+}
+.footer .inner-footer .right-part ul li{
+     list-style: none;
+     margin: 17px 0;
+}
+.footer .inner-footer .right-part ul li a{
+     text-decoration: none;
+     color: #858586;
+}
+/* ------------------------ footer-section end here ----------------------- */
